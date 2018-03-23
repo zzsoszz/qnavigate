@@ -1,0 +1,52 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	font-size:14px;
+	font-family: 'microsoft yahei', 'Helvetica', simhei, simsun, sans-serif;
+    font-weight: 400;
+}
+.header{
+	position: fixed;
+	top:0px;
+	left:0px;
+	display: flex;
+	padding: 0.62em;
+	font-size: 120%;
+	width:100%;
+	background: #333333;
+	color:#eeeeee;
+}
+.header__logo{
+	display: block;
+	flex:1;
+	text-align: center;
+}
+.header__openmenu{
+	display: block;
+	flex:none;
+}
+
+
+.sidemenu{
+	z-index:2;
+	position: fixed;
+	left:-100%;
+	top:0px;
+	padding:0.5em;
+	background: #ffffff;
+	height:100%;
+	min-width:62%;
+	border-right:1px solid #eeeeee;
+	transition: left 0.5s;
+}
+.sidemenu--on{
+	left:0;
+}
+.sidemenu__item{
+	text-decoration: none;
+	color:#333333;
+	display:block;
+	padding:1em;
+	border-bottom: 1px solid #eeeeee;
+}
