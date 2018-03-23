@@ -11,21 +11,29 @@ body {
 	top:0px;
 	left:0px;
 	display: flex;
-	padding: 0.62em;
-	font-size: 120%;
+	height:3em;
+
 	width:100%;
 	background: #333333;
 	color:#eeeeee;
+	align-items: center;
+	padding: 1em;
 }
 .header__logo{
-	display: block;
+	font-size: 120%;
 	flex:1;
 	text-align: center;
 }
 .header__openmenu{
-	display: block;
 	flex:none;
 }
+
+
+.main{
+	margin-top:3em;
+}
+
+
 
 
 .sidemenu{
@@ -50,3 +58,5 @@ body {
 	padding:1em;
 	border-bottom: 1px solid #eeeeee;
 }
+
+
