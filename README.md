@@ -1,5 +1,5 @@
 # 公司通用导航，左侧划入
-····js
+```
 $(document).ready(function (argument) {
 	
 	//创建菜单
@@ -12,4 +12,4 @@ $(document).ready(function (argument) {
 	});
 	
 });
-····
+```
